@@ -1,0 +1,159 @@
+2024/06/14-14:34:19.054 aadc Reusing MANIFEST C:\Users\glima\Desktop\GitHub\spammador-zap\tokens\Spammador\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/14-14:34:19.054 aadc Recovering log #1903
+2024/06/14-14:34:19.059 aadc Reusing old log C:\Users\glima\Desktop\GitHub\spammador-zap\tokens\Spammador\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001903.log 
+2024/06/14-14:34:19.059 aadc Delete type=2 #1902
+2024/06/14-14:34:19.295 8edc Manual compaction at level-0 from ' \xa2\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xa3\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:19.298 8edc Manual compaction at level-0 from ' \xa0\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xa1\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:19.304 8edc Level-0 table #1908: started
+2024/06/14-14:34:19.313 8edc Level-0 table #1908: 87645 bytes OK
+2024/06/14-14:34:19.316 8edc Delete type=0 #1903
+2024/06/14-14:34:19.317 aadc Manual compaction at level-0 from ' \x9f\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xa0\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xa3\x02\x00\x00\xc8\x0d\x00l\x00o\x00c\x00a\x00l\x00_\x00s\x00t\x00o\x00r\x00a\x00g\x00e' @ 1440845 : 1
+2024/06/14-14:34:19.317 aadc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:19.333 aadc Generated table #1909@0: 9385 keys, 94965 bytes
+2024/06/14-14:34:19.333 aadc Compacted 1@0 + 1@1 files => 94965 bytes
+2024/06/14-14:34:19.334 aadc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:19.335 aadc Delete type=2 #1908
+2024/06/14-14:34:19.335 aadc Manual compaction at level-0 from ' \xa3\x02\x00\x00\xc8\x0d\x00l\x00o\x00c\x00a\x00l\x00_\x00s\x00t\x00o\x00r\x00a\x00g\x00e' @ 1440845 : 1 .. ' \xa0\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:19.340 8edc Level-0 table #1911: started
+2024/06/14-14:34:19.345 8edc Level-0 table #1911: 732 bytes OK
+2024/06/14-14:34:19.347 8edc Delete type=2 #1905
+2024/06/14-14:34:19.347 8edc Delete type=0 #1907
+2024/06/14-14:34:19.348 aadc Manual compaction at level-0 from ' \xa3\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xa4\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xa4\x02\x00\x00\x05' @ 1443560 : 1
+2024/06/14-14:34:19.348 aadc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:19.362 aadc Generated table #1912@0: 9366 keys, 94659 bytes
+2024/06/14-14:34:19.362 aadc Compacted 1@0 + 1@1 files => 94659 bytes
+2024/06/14-14:34:19.364 aadc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:19.364 aadc Delete type=2 #1911
+2024/06/14-14:34:19.365 aadc Manual compaction at level-0 from ' \xa4\x02\x00\x00\x05' @ 1443560 : 1 .. ' \xa4\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:19.372 8edc Level-0 table #1914: started
+2024/06/14-14:34:19.378 8edc Level-0 table #1914: 14091 bytes OK
+2024/06/14-14:34:19.379 8edc Delete type=2 #1909
+2024/06/14-14:34:19.380 8edc Delete type=0 #1910
+2024/06/14-14:34:19.380 aadc Manual compaction at level-0 from ' \x94\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \x95\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xa4\x02\x00\x00\xc8\x11\x00w\x00o\x00r\x00k\x00e\x00r\x00_\x00w\x00a\x00m\x00_\x00e\x00v\x00e\x00n\x00t\x00s' @ 1443898 : 1
+2024/06/14-14:34:19.381 aadc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:19.391 aadc Generated table #1915@0: 8822 keys, 74152 bytes
+2024/06/14-14:34:19.391 aadc Compacted 1@0 + 1@1 files => 74152 bytes
+2024/06/14-14:34:19.392 aadc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:19.393 aadc Delete type=2 #1914
+2024/06/14-14:34:19.393 aadc Manual compaction at level-0 from ' \xa4\x02\x00\x00\xc8\x11\x00w\x00o\x00r\x00k\x00e\x00r\x00_\x00w\x00a\x00m\x00_\x00e\x00v\x00e\x00n\x00t\x00s' @ 1443898 : 1 .. ' \x95\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:29.499 8edc Level-0 table #1917: started
+2024/06/14-14:34:29.507 8edc Level-0 table #1917: 11783 bytes OK
+2024/06/14-14:34:29.509 8edc Delete type=2 #1912
+2024/06/14-14:34:29.509 8edc Delete type=0 #1913
+2024/06/14-14:34:29.510 8edc Manual compaction at level-0 from ' \xa5\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xa6\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xae\x02\x00\x00\x05' @ 1445261 : 1
+2024/06/14-14:34:29.510 8edc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:29.523 8edc Generated table #1918@0: 8958 keys, 77950 bytes
+2024/06/14-14:34:29.523 8edc Compacted 1@0 + 1@1 files => 77950 bytes
+2024/06/14-14:34:29.525 8edc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:29.525 8edc Delete type=2 #1917
+2024/06/14-14:34:29.526 8edc Manual compaction at level-0 from ' \xae\x02\x00\x00\x05' @ 1445261 : 1 .. ' \xa6\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:29.531 8edc Level-0 table #1920: started
+2024/06/14-14:34:29.538 8edc Level-0 table #1920: 1489 bytes OK
+2024/06/14-14:34:29.540 8edc Delete type=2 #1915
+2024/06/14-14:34:29.541 8edc Delete type=0 #1916
+2024/06/14-14:34:29.542 aadc Manual compaction at level-0 from ' \xa6\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xa7\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xa6\x02\x00\x00\x05' @ 1445355 : 0
+2024/06/14-14:34:29.542 aadc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:29.556 aadc Generated table #1921@0: 8956 keys, 78523 bytes
+2024/06/14-14:34:29.556 aadc Compacted 1@0 + 1@1 files => 78523 bytes
+2024/06/14-14:34:29.558 aadc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:29.559 aadc Delete type=2 #1920
+2024/06/14-14:34:29.560 aadc Manual compaction at level-0 from ' \xa6\x02\x00\x00\x05' @ 1445355 : 0 .. ' \xa7\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:29.566 aadc Level-0 table #1923: started
+2024/06/14-14:34:29.571 aadc Level-0 table #1923: 1664 bytes OK
+2024/06/14-14:34:29.573 aadc Delete type=2 #1918
+2024/06/14-14:34:29.573 aadc Delete type=0 #1919
+2024/06/14-14:34:29.574 aadc Manual compaction at level-0 from ' \xa7\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xa8\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xb0\x02\x00\x00\x05' @ 1445429 : 1
+2024/06/14-14:34:29.574 aadc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:29.587 aadc Generated table #1924@0: 8981 keys, 79342 bytes
+2024/06/14-14:34:29.587 aadc Compacted 1@0 + 1@1 files => 79342 bytes
+2024/06/14-14:34:29.588 aadc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:29.589 aadc Delete type=2 #1923
+2024/06/14-14:34:29.589 aadc Manual compaction at level-0 from ' \xb0\x02\x00\x00\x05' @ 1445429 : 1 .. ' \xa8\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:29.593 1034 Level-0 table #1926: started
+2024/06/14-14:34:29.599 1034 Level-0 table #1926: 252 bytes OK
+2024/06/14-14:34:29.601 1034 Delete type=2 #1921
+2024/06/14-14:34:29.602 1034 Delete type=0 #1922
+2024/06/14-14:34:29.602 aadc Manual compaction at level-0 from ' \xa8\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xa9\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xa8\x02\x00\x00\x05' @ 1445439 : 0
+2024/06/14-14:34:29.603 aadc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:29.613 aadc Generated table #1927@0: 8979 keys, 79350 bytes
+2024/06/14-14:34:29.613 aadc Compacted 1@0 + 1@1 files => 79350 bytes
+2024/06/14-14:34:29.614 aadc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:29.614 aadc Delete type=2 #1926
+2024/06/14-14:34:29.615 aadc Manual compaction at level-0 from ' \xa8\x02\x00\x00\x05' @ 1445439 : 0 .. ' \xa9\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:29.619 aadc Level-0 table #1929: started
+2024/06/14-14:34:29.625 aadc Level-0 table #1929: 2884 bytes OK
+2024/06/14-14:34:29.627 aadc Delete type=2 #1924
+2024/06/14-14:34:29.627 aadc Delete type=0 #1925
+2024/06/14-14:34:29.628 aadc Manual compaction at level-0 from ' \xa9\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xaa\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xb1\x02\x00\x00\x05' @ 1445607 : 1
+2024/06/14-14:34:29.628 aadc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:29.640 aadc Generated table #1930@0: 9055 keys, 81153 bytes
+2024/06/14-14:34:29.640 aadc Compacted 1@0 + 1@1 files => 81153 bytes
+2024/06/14-14:34:29.641 aadc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:29.642 aadc Delete type=2 #1929
+2024/06/14-14:34:29.642 aadc Manual compaction at level-0 from ' \xb1\x02\x00\x00\x05' @ 1445607 : 1 .. ' \xaa\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:29.646 aadc Level-0 table #1932: started
+2024/06/14-14:34:29.652 aadc Level-0 table #1932: 252 bytes OK
+2024/06/14-14:34:29.653 aadc Delete type=2 #1927
+2024/06/14-14:34:29.653 aadc Delete type=0 #1928
+2024/06/14-14:34:29.654 aadc Manual compaction at level-0 from ' \xaa\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xab\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xaa\x02\x00\x00\x05' @ 1445627 : 0
+2024/06/14-14:34:29.654 aadc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:29.666 aadc Generated table #1933@0: 9053 keys, 81081 bytes
+2024/06/14-14:34:29.666 aadc Compacted 1@0 + 1@1 files => 81081 bytes
+2024/06/14-14:34:29.668 aadc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:29.668 aadc Delete type=2 #1932
+2024/06/14-14:34:29.669 aadc Manual compaction at level-0 from ' \xaa\x02\x00\x00\x05' @ 1445627 : 0 .. ' \xab\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:29.672 aadc Level-0 table #1935: started
+2024/06/14-14:34:29.678 aadc Level-0 table #1935: 252 bytes OK
+2024/06/14-14:34:29.680 aadc Delete type=2 #1930
+2024/06/14-14:34:29.680 aadc Delete type=0 #1931
+2024/06/14-14:34:29.681 aadc Manual compaction at level-0 from ' \xab\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xac\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xab\x02\x00\x00\x05' @ 1445633 : 0
+2024/06/14-14:34:29.681 aadc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:29.692 aadc Generated table #1936@0: 9051 keys, 81027 bytes
+2024/06/14-14:34:29.692 aadc Compacted 1@0 + 1@1 files => 81027 bytes
+2024/06/14-14:34:29.693 aadc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:29.694 aadc Delete type=2 #1935
+2024/06/14-14:34:29.695 aadc Manual compaction at level-0 from ' \xab\x02\x00\x00\x05' @ 1445633 : 0 .. ' \xac\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:29.698 aadc Level-0 table #1938: started
+2024/06/14-14:34:29.704 aadc Level-0 table #1938: 252 bytes OK
+2024/06/14-14:34:29.706 aadc Delete type=2 #1933
+2024/06/14-14:34:29.706 aadc Delete type=0 #1934
+2024/06/14-14:34:29.707 aadc Manual compaction at level-0 from ' \xac\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xad\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xac\x02\x00\x00\x05' @ 1445639 : 0
+2024/06/14-14:34:29.707 aadc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:29.716 aadc Generated table #1939@0: 9049 keys, 81050 bytes
+2024/06/14-14:34:29.716 aadc Compacted 1@0 + 1@1 files => 81050 bytes
+2024/06/14-14:34:29.717 aadc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:29.717 aadc Delete type=2 #1938
+2024/06/14-14:34:29.718 aadc Manual compaction at level-0 from ' \xac\x02\x00\x00\x05' @ 1445639 : 0 .. ' \xad\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:29.721 aadc Level-0 table #1941: started
+2024/06/14-14:34:29.727 aadc Level-0 table #1941: 252 bytes OK
+2024/06/14-14:34:29.729 aadc Delete type=2 #1936
+2024/06/14-14:34:29.729 aadc Delete type=0 #1937
+2024/06/14-14:34:29.730 aadc Manual compaction at level-0 from ' \xad\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xae\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xad\x02\x00\x00\x05' @ 1445645 : 0
+2024/06/14-14:34:29.730 aadc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:29.740 aadc Generated table #1942@0: 9047 keys, 80969 bytes
+2024/06/14-14:34:29.740 aadc Compacted 1@0 + 1@1 files => 80969 bytes
+2024/06/14-14:34:29.741 aadc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:29.741 aadc Delete type=2 #1941
+2024/06/14-14:34:29.742 aadc Manual compaction at level-0 from ' \xad\x02\x00\x00\x05' @ 1445645 : 0 .. ' \xae\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:29.745 aadc Level-0 table #1944: started
+2024/06/14-14:34:29.751 aadc Level-0 table #1944: 252 bytes OK
+2024/06/14-14:34:29.752 aadc Delete type=2 #1939
+2024/06/14-14:34:29.752 aadc Delete type=0 #1940
+2024/06/14-14:34:29.753 aadc Manual compaction at level-0 from ' \xae\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xaf\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xae\x02\x00\x00\x05' @ 1445651 : 0
+2024/06/14-14:34:29.753 aadc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:29.764 aadc Generated table #1945@0: 9045 keys, 80775 bytes
+2024/06/14-14:34:29.764 aadc Compacted 1@0 + 1@1 files => 80775 bytes
+2024/06/14-14:34:29.765 aadc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:29.765 aadc Delete type=2 #1944
+2024/06/14-14:34:29.766 aadc Manual compaction at level-0 from ' \xae\x02\x00\x00\x05' @ 1445651 : 0 .. ' \xaf\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/14-14:34:29.771 aadc Level-0 table #1947: started
+2024/06/14-14:34:29.776 aadc Level-0 table #1947: 1193 bytes OK
+2024/06/14-14:34:29.778 aadc Delete type=2 #1942
+2024/06/14-14:34:29.778 aadc Delete type=0 #1943
+2024/06/14-14:34:29.779 aadc Manual compaction at level-0 from ' \xb1\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xb2\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xb1\x02\x00\x00\x05' @ 1445771 : 0
+2024/06/14-14:34:29.779 aadc Compacting 1@0 + 1@1 files
+2024/06/14-14:34:29.790 aadc Generated table #1948@0: 9043 keys, 79543 bytes
+2024/06/14-14:34:29.790 aadc Compacted 1@0 + 1@1 files => 79543 bytes
+2024/06/14-14:34:29.791 aadc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/14-14:34:29.792 aadc Delete type=2 #1947
+2024/06/14-14:34:29.792 aadc Manual compaction at level-0 from ' \xb1\x02\x00\x00\x05' @ 1445771 : 0 .. ' \xb2\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
