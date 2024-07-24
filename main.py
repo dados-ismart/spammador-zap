@@ -2,21 +2,21 @@ from WPP_Whatsapp import Create
 import logging
 import pandas as pd
 import os
-import config
 import sys
 import re
-
+import datetime as dt
 
 #verificando se a base com numeros existe
-if not os.path.exists(config.arquivo_xlsx):
+if not os.path.exists('Base_Spammador.xlsx'):
     df=pd.DataFrame({'Telefone':['+5511999999999'],'Mensagem':['Ao lado temos um telefone no formato de exemplo.']})
-    df.to_excel(config.arquivo_xlsx,index=False)
-    print(f'O arquivo {config.arquivo_xlsx} foi criado, preencha-o e rode novamente o programa.')
+    df.to_excel('Base_Spammador.xlsx',index=False)
+    print(f'O arquivo Base_Spammador.xlsx foi criado, preencha-o e rode novamente o programa.')
     input('Aperte qualquer tecla para sair.')
     sys.exit()
 
+
 #importando base
-base=pd.read_excel(config.arquivo_xlsx)
+base=pd.read_excel('Base_Spammador.xlsx')
 base=base.astype(str)
 
 logger = logging.getLogger(name="Spamador_zap")
@@ -39,7 +39,7 @@ client = creator.start()
 if creator.state != 'CONNECTED':
     raise Exception(creator.state)
 print('Conexão feita com sucesso. As mensagens serão enviadas.\n\n')
-execucao_nome_log = str(config.now).replace(":", "-").replace(" ", "_") + ".xlsx"
+execucao_nome_log = str(dt.datetime.now().strftime('%Y-%m-%d %H-%M-%S')).replace(":", "-").replace(" ", "_") + ".xlsx"
 log_numeros=[]
 log_status=[]
 log_hora=[]
@@ -60,12 +60,12 @@ for phone_number in base['Telefone']:
             logger.info(f'Mensagem enviada para: {phone_number}')
             log_status.append('Sucesso')
         log_numeros.append(phone_number)
-        log_hora.append(str(config.now))
+        log_hora.append(str(dt.datetime.now().strftime('%Y-%m-%d %H-%M-%S')))
 
     except Exception as e:
         log_numeros.append(phone_number)
         log_status.append('Falha')
-        log_hora.append(str(config.now))
+        log_hora.append(str(dt.datetime.now().strftime('%Y-%m-%d %H-%M-%S')))
         logger.error(f'Erro ao enviar mensagem para {phone_number}')
         raise e
 

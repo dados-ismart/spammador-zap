@@ -1,6 +1,0 @@
-[0614/143419.037:INFO:CONSOLE(131)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v3/yh/r/myF7QXuS91p.js?_nc_x=Ij3Wp8lg5Kz (131)
-[0614/143419.091:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'battery'.", source:  (0)
-[0614/143419.091:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
-[0614/143419.091:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
-[0614/143419.093:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage-select-url'.", source:  (0)
-[0614/143419.093:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'usb-unrestricted'.", source:  (0)
