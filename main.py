@@ -7,7 +7,7 @@ import re
 import datetime as dt
 from time import sleep
 from random import randint
-#
+
 #verificando se a base com numeros existe
 if not os.path.exists('Base_Spammador.xlsx'):
     df=pd.DataFrame({'Telefone':['+5511999999999'],'Mensagem':['Ao lado temos um telefone no formato de exemplo.']})
@@ -77,8 +77,3 @@ nome_log='Registros_'+execucao_nome_log
 df_log.to_excel(nome_log,index=False)
 input('\n\nMensagens enviadas. Aperte qualquer tecla para sair')
 sys.exit()
-#for number in phone_numbers:
-#  print(number)
-#  result = client.sendText(number, message)
-  #print(result)
-#  creator.loop.run_forever()
