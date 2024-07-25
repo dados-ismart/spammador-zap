@@ -7,7 +7,7 @@ import re
 import datetime as dt
 from time import sleep
 from random import randint
-
+#
 #verificando se a base com numeros existe
 if not os.path.exists('Base_Spammador.xlsx'):
     df=pd.DataFrame({'Telefone':['+5511999999999'],'Mensagem':['Ao lado temos um telefone no formato de exemplo.']})
