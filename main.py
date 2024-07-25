@@ -5,6 +5,8 @@ import os
 import sys
 import re
 import datetime as dt
+from time import sleep
+from random import randint
 
 #verificando se a base com numeros existe
 if not os.path.exists('Base_Spammador.xlsx'):
@@ -55,6 +57,7 @@ for phone_number in base['Telefone']:
             logger.error(f'Número de telefone inválido: {phone_number}')
             log_status.append('Número Inválido')
         else:
+            sleep(randint(4, 8))
             message = base[base['Telefone']==phone_number]['Mensagem'].values[0]
             result = client.sendText(phone_number, message)
             logger.info(f'Mensagem enviada para: {phone_number}')
