@@ -35,3 +35,6 @@ Após a primeira execução o arquivo "Base_Spammador" sera criado. Nele basta i
 
 ### Segunda execução
 Após enviar com o arquivo "Base_Spammador" preenchido, vai ser exportado um arquivo chamado "Registros_data.xlsx", contendo o log de execução para cada número.
+
+## Playwright
+-> https://playwright.dev/python/docs/intro
